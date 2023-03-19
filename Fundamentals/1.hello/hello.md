@@ -26,5 +26,4 @@ Script files are attached to HTML with the src attribute:
 
 ## Advantages of External Scripts
 
-benefic of a separete file is that the browser will download it and store it in its cache making it easyly accessible.
-That reduces traffic and makes pages faster.
+. Benefits of a separete file is that the browser will download it and store it in its cache making it easyly accessible hence reduces traffic and makes pages faster.
