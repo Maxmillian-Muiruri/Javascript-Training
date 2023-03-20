@@ -1,1 +1,6 @@
-alert("Javascript external scripts");
+
+alert("Javascript external");
+
+
+
+
