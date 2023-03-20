@@ -3,5 +3,5 @@ let admin;
 admin = name;
 alert(admin);
 
-let planet = "mars";
+let planet = "earth";
 let maxmillian = "www.maxmillianmuiruri@gmail.com";alert(maxmillian);
