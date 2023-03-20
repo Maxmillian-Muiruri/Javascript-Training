@@ -57,7 +57,7 @@ The let and const keywords were added to JavaScript in 2015.
 
 #### Variables defined with const cannot be Reassigned.
 
-V#### ariables defined with const have Block Scope.
+#### variables defined with const have Block Scope.
 
 ```js
 Example;
