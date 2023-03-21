@@ -4,6 +4,8 @@
 
 # String Conversion
 
+### Occurs when we output something. Can be performed with String(value). The conversion to string is usually obvious for primitive values.
+
 ### String conversion happens when we need the string form of a value.
 
 ### For example, alert(value) does it to show the value.
@@ -72,4 +74,23 @@ alert( Number(true) );        // 1
 alert( Number(false) );       // 0
 ```
 
-### Please note that null and undefined behave differently here: null becomes zero while undefined becomes NaN.
+### Please note that `null` and `undefined` behave differently here: `null` becomes zero while `undefined` becomes `NaN.`
+
+# Boolean Conversions
+
+### Boolean conversion is the simplest one.
+
+### The conversion rule:
+
+- Values that are intuitively “empty”, like `0`, an empty string, `null, undefined,` and `NaN`, become `false`.
+- Other values become `true.`
+
+EXAMPLE
+
+```js
+alert(Boolean(1)); // true
+alert(Boolean(0)); // false
+
+alert(Boolean("hello")); // true
+alert(Boolean("")); // false
+```
