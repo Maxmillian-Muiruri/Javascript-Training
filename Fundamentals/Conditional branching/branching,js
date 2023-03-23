@@ -3,3 +3,62 @@ if (year == 2015) {
   alert( "That's correct!" );
   alert( "You're so smart!" );
 }
+
+let year = prompt('In which year was the ECMAScript-2015 specification published?', '');
+
+if (year == 2015) {
+  alert( 'You guessed it right!' );
+} else {
+  alert( 'How can you be so wrong?' ); // any value except 2015
+}
+
+// multiply '?'
+
+let age = prompt('age?', 18);
+
+let message = (age < 3) ? 'Hi, baby!' :
+  (age < 18) ? 'Hello!' :
+  (age < 100) ? 'Greetings!' :
+  'What an unusual age!';
+
+alert( message );
+
+// Using the if..else construct, write the code which asks: ‘What is the “official” name of JavaScript?
+
+// If the visitor enters “ECMAScript”, then output “Right!”, otherwise – output: “You don’t know? ECMAScript!”
+
+let value = prompt('What is the "official" name of JavaScript?', '');
+
+if (value == 'ECMAScript') {
+  alert('Right!');
+} else {
+  alert("You don't know? ECMAScript!");
+}
+
+//  Rewrite this if using the conditional operator '?':
+
+// let result;
+
+// if (a + b < 4) {
+//   result = 'Below';
+// } else {
+//   result = 'Over';
+// }
+let result = (a + b < 4) ? 'Below' : 'Over';
+
+// Rewrite if..else using multiple ternary operators '?'.
+// let message;
+
+// if (login == 'Employee') {
+//   message = 'Hello';
+// } else if (login == 'Director') {
+//   message = 'Greetings';
+// } else if (login == '') {
+//   message = 'No login';
+// } else {
+//   message = '';
+// }
+
+    //  SOLUTION
+
+let message = (login == 'Employee') ? 'Hello': (login == 'Director') ? 'Greetings' : (login == '') ? 'No login' : '';
